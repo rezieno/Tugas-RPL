@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+    <php>
+        <const name="DB_DSN" value="mysql:host=localhost;dbname=kkcosmetic" />
+        <const name="DB_USERNAME" value="root" />
+        <const name="DB_PASSWORD" value="" />
+    </php>
+</phpunit>
