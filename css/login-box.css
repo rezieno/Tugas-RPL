@@ -1,0 +1,96 @@
+body {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8be8cf), color-stop(100%,#cdeb8b));
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    padding-top: 20px;
+}
+
+.container {
+    width: 406px;
+    max-width: 406px;
+    margin: 0 auto;
+}
+
+#login-box {
+	padding: 0px 25px 25px;
+    background: #fff;
+    box-shadow: 
+        0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+    position: static;
+}
+
+#login-box .sep {
+    height: 1px;
+    background: #e8e8e8;
+    width: 406px;
+    margin: 0px -25px;
+}
+
+#login-box img {
+	border:none;
+}
+
+#signup .header {
+    margin-bottom: 20px;
+}
+
+#login-box .header h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+#login-box .header h3 {
+	color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;}
+
+#login-box-name {
+	color: #8f8f8f;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+#login-box-field input[type=password], input[type=normal]{
+	
+	background: #f5f5f5;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+
+#login-box-field input[type=password]:focus, input[type=normal]:focus {background: #fff;
+    box-shadow: 0px 0px 0px 3px #fff38e, inset 0px 2px 3px rgba( 0,0,0,0.2 ), 0px 5px 5px rgba( 0,0,0,0.15 );
+    outline: none;   }
+
+.form-login  {
+	/*width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #3a591c;
+	/*background-color:#588031;
+	font-size: 16px;
+	color: #ebebeb;*/
+}
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+.login-box-options a {
+	/*color: #ebebeb;*/
+	font-size: 11px;
+}
